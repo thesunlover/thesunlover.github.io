@@ -1,0 +1,211 @@
+{
+    "model":{
+        "CURRENCY" : "$",
+        "bet" : 2,
+        "balance" : 1000,
+        "groups" : [{
+            "name" : "left",
+            "tiles": {
+                "tile0" : {
+                    "index" : 0,
+                    "id" : "#tile-left0",
+                    "classesCSS" : "tile tile0",
+                    "symbol" : 0,
+                    "isWinner" : true
+                },
+                "tile1" : {
+                    "index" : 1,
+                    "id" : "#tile-left1",
+                    "classesCSS" : "tile tile1",
+                    "symbol" : 1,
+                    "isWinner" : false
+                },
+                "tile2" : {
+                    "index" : 2,
+                    "id" : "#tile-left2",
+                    "classesCSS" : "tile tile2",
+                    "symbol" : 2,
+                    "isWinner" : false
+                },
+                "tile3" : {
+                    "index" : 3,
+                    "id" : "#tile-left3",
+                    "classesCSS" : "tile tile3",
+                    "symbol" : 3,
+                    "isWinner" : true
+                },
+                "tile4" : {
+                    "index" : 4,
+                    "id" : "#tile-left4",
+                    "classesCSS" : "tile tile4",
+                    "symbol" : 4,
+                    "isWinner" : false
+                },
+                "tile5" : {
+                    "index" : 5,
+                    "id" : "#tile-left5",
+                    "classesCSS" : "tile tile5",
+                    "symbol" : 5,
+                    "isWinner" : false
+                },
+                "tile6" : {
+                    "index" : 6,
+                    "id" : "#tile-left6",
+                    "classesCSS" : "tile tile6",
+                    "symbol" : 6,
+                    "isWinner" : true
+                },
+                "tile7"  : {
+                    "index" : 7,
+                    "id" : "#tile-left7",
+                    "classesCSS" : "tile tile7",
+                    "symbol" : 7,
+                    "isWinner" : false
+                }
+            },
+            "central-circ" : {
+                "id" : "central-circ-left"
+            }
+        }, {
+            "name" : "mid",
+            "tiles": {
+                "tile0"  : {
+                    "index" : 0,
+                    "id" : "#tile-mid0",
+                    "classesCSS" : "tile tile0",
+                    "symbol" : 0,
+                    "isWinner" : true
+                },
+                "tile1"  : {
+                    "index" : 1,
+                    "id" : "#tile-mid1",
+                    "classesCSS" : "tile tile1",
+                    "symbol" : 1,
+                    "isWinner" : false
+                },
+                "tile2" : {
+                    "index" : 2,
+                    "id" : "#tile-mid2",
+                    "classesCSS" : "tile tile2",
+                    "symbol" : 2,
+                    "isWinner" : false
+                },
+                "tile3" : {
+                    "index" : 3,
+                    "id" : "#tile-mid3",
+                    "classesCSS" : "tile tile3",
+                    "symbol" : 3,
+                    "isWinner" : true
+                },
+                "tile4" : {
+                    "index" : 4,
+                    "id" : "#tile-mid4",
+                    "classesCSS" : "tile tile4",
+                    "symbol" : 4,
+                    "isWinner" : false
+                },
+                "tile5" : {
+                    "index" : 5,
+                    "id" : "#tile-mid5",
+                    "classesCSS" : "tile tile5",
+                    "symbol" : 5,
+                    "isWinner" : false
+                },
+                "tile6" : {
+                    "index" : 6,
+                    "id" : "#tile-mid6",
+                    "classesCSS" : "tile tile6",
+                    "symbol" : 6,
+                    "isWinner" : true
+                },
+                "tile7"  : {
+                    "index" : 7,
+                    "id" : "#tile-mid7",
+                    "classesCSS" : "tile tile7",
+                    "symbol" : 7,
+                    "isWinner" : false
+                }
+            },
+            "central-circ" : {
+                "id" : "central-circ-mid"
+            }
+        }, {
+            "name" : "right",
+            "tiles": {
+                "tile0"  : {
+                    "index" : 0,
+                    "id" : "#tile-right0",
+                    "classesCSS" : "tile tile0",
+                    "symbol" : 0,
+                    "isWinner" : true
+                },
+                "tile1"  : {
+                    "index" : 1,
+                    "id" : "#tile-right1",
+                    "classesCSS" : "tile tile1",
+                    "symbol" : 1,
+                    "isWinner" : false
+                },
+                "tile2" : {
+                    "index" : 2,
+                    "id" : "#tile-right2",
+                    "classesCSS" : "tile tile2",
+                    "symbol" : 2,
+                    "isWinner" : false
+                },
+                "tile3" : {
+                    "index" : 3,
+                    "id" : "#tile-right3",
+                    "classesCSS" : "tile tile3",
+                    "symbol" : 3,
+                    "isWinner" : true
+                },
+                "tile4" : {
+                    "index" : 4,
+                    "id" : "#tile-right4",
+                    "classesCSS" : "tile tile4",
+                    "symbol" : 4,
+                    "isWinner" : false
+                },
+                "tile5" : {
+                    "index" : 5,
+                    "id" : "#tile-right5",
+                    "classesCSS" : "tile tile5",
+                    "symbol" : 5,
+                    "isWinner" : false
+                },
+                "tile6" : {
+                    "index" : 6,
+                    "id" : "#tile-right6",
+                    "classesCSS" : "tile tile6",
+                    "symbol" : 6,
+                    "isWinner" : true
+                },
+                "tile7"  : {
+                    "index" : 7,
+                    "id" : "#tile-right7",
+                    "classesCSS" : "tile tile7",
+                    "symbol" : 7,
+                    "isWinner" : false
+                }
+            },
+            "central-circ" : {
+                "id" : "central-circ-right"
+            }
+        }
+            ]
+    },
+    "symbols" : {
+        "all" : [
+            {"id": 0, "cssClass": "symbol0", "multipliers": {"forCalculation": 13, "forDisplay": 12}},
+            {"id": 1, "cssClass": "symbol1", "multipliers": {"forCalculation":  4, "forDisplay":  3}},
+            {"id": 2, "cssClass": "symbol2", "multipliers": {"forCalculation":  8, "forDisplay":  7}},
+            {"id": 3, "cssClass": "symbol3", "multipliers": {"forCalculation":  7, "forDisplay":  6}},
+            {"id": 4, "cssClass": "symbol4", "multipliers": {"forCalculation":  5, "forDisplay":  4}},
+            {"id": 5, "cssClass": "symbol5", "multipliers": {"forCalculation":  3, "forDisplay":  2}},
+            {"id": 6, "cssClass": "symbol6", "multipliers": {"forCalculation":  2, "forDisplay":  1}},
+            {"id": 7, "cssClass": "symbol7", "multipliers": {"forCalculation": 11, "forDisplay": 10}}
+        ],
+        "cssWinnersState" : "win"
+    }
+}

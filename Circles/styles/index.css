@@ -1,0 +1,104 @@
+body, div, span, img {
+    outline: none;
+    border:none;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+}
+
+#phone {
+    margin: auto;
+    height: 406px;
+    width: 765px;
+    position: relative;
+    /*overflow: hidden;*/
+}
+#phone:before {
+	content: "";
+    display: block;
+	position: absolute;
+	width: 406px;
+	height: 765px;
+	top: -179px;
+	left: 180px;
+	z-index: -1;
+	background: url(../images/phone-sprite.jpg) 0 0 no-repeat;
+	transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -khtml-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+}
+
+
+#game{
+    left: 204px;
+    top: 43px;
+    display: block;
+    width: 406px;
+    height:  321px;
+    background: rgb(255,255,255);
+    margin: 0;
+    /*fixing the whitespace bug:
+    *see http://css-tricks.com/fighting-the-space-between-inline-block-elements/*/
+    font-size: 0px;
+    background: linear-gradient(to bottom, #014b29 50%,#168d5c 100%);
+    position: relative;
+    z-index: 0;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+
+}
+
+#header{
+    height: 20px;
+    background: linear-gradient(to bottom, #014b29 25%,#168d5c 100%);
+    font: normal 13px 'Myriad Pro', Helvetica, sans-serif;
+    line-height: 18px;
+}
+
+#score-board{
+    height:10px;
+    display: inline;
+    float: right;
+}
+
+#bet-price{
+    height:10px;
+    display: inline;
+}
+
+#buttons{
+    margin-top: 45px;
+    font-size: 13px;/*restore font-size after fix*/
+    border: 0px solid #168d5c;/*#014b29*/
+    height:45px;
+    /*display: none;*/
+}
+#buttons.Hints{}
+
+#footer{
+    height: 20px;
+    background: linear-gradient(to bottom, #014b29 -50%,#168d5c 100%);
+    font: normal 13px 'Myriad Pro', Helvetica, sans-serif;
+    line-height: 18px;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
+    width:100%;
+}
+.status{
+    height:10px;
+    text-align: center;
+    width:100%;
+    position: absolute;
+}
+

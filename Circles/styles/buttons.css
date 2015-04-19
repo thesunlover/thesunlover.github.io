@@ -1,0 +1,134 @@
+:active, :focus {
+    outline: 0;
+}
+
+/** Styling the Button **/
+
+
+.button {
+    font: bold 19px 'Myriad Pro', Helvetica, sans-serif;
+    text-shadow: 0px 1px 1px rgba(250,250,250,0.1);
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px 0px rgb(34,34,34),
+                0px 7px 10px 0px rgb(17,17,17),
+                inset 0px 1px 1px 0px rgba(250, 250, 250, .2), 
+                inset 0px -12px 35px 0px rgba(0, 0, 0, .5);
+    width: 90px;
+    height: 34px;
+    border: 0px solid #168d5c;
+    color:#014b29;
+    /*color: #168d5c;*/
+    /*color: #ccc;*/
+    border-radius: 35px;
+    text-align: center;
+    line-height: 34px;
+    background: linear-gradient(to bottom, #014b29 0%,#168d5c 50%);
+
+    transition: color 350ms ease, text-shadow 350ms;
+        -o-transition: color 350ms ease, text-shadow 350ms;
+        -moz-transition: color 350ms ease, text-shadow 350ms;
+        -webkit-transition: color 350ms ease, text-shadow 350ms;
+}
+.button:before {
+    content: "";
+    width: 94px;
+    height: 37px;
+    display: block;
+    z-index: -2;
+    position: absolute;
+    background-color: rgb(26,27,29);
+    left: -2px;
+    top: 2px;
+    border-radius: 40px;
+    box-shadow: 0px 1px 0px 0px rgba(250,250,250,0.1), 
+                inset 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.button:active {
+    box-shadow: 0px 0px 0px 0px rgb(34,34,34),
+                0px 3px 7px 0px rgb(17,17,17),
+                inset 0px 1px 1px 0px rgba(250, 250, 250, .2), 
+                inset 0px -10px 35px 5px rgba(0, 0, 0, .5);
+    background-color: rgb(83,87,93);
+}
+.button.on {
+    box-shadow: 0px 0px 0px 0px rgb(34,34,34),
+                0px 3px 7px 0px rgb(17,17,17), 
+          inset 0px 1px 1px 0px rgba(250, 250, 250, .2), 
+          inset 0px -10px 35px 5px rgba(0, 0, 0, .5);
+    background-color: rgb(83,87,93);
+    color: #fff;
+    text-shadow: 0px 0px 3px rgb(250,250,250);
+}
+
+
+/* positions of the buttons : line-groups */
+
+/* default, base line */
+
+.button {
+    bottom:  70px;
+}
+
+.button:active, .button.on {
+    bottom:  67px;
+}
+
+
+/* first line */
+
+.button.first-line{
+    bottom:  80px;
+}
+.button.first-line:active, .button.first-line.on {
+    bottom:  77px;
+}
+
+/* bottom line */
+
+.button.second-line{
+    bottom:  30px;
+}
+.button.second-line:active, .button.second-line.on {
+    bottom:  27px;
+}
+.button:active:before, .button.on:before {
+    top: -1px;
+    background-color: rgb(26,27,29);
+    box-shadow: 0px 1px 0px 0px rgba(250,250,250,0.1), 
+          inset 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.button:hover{
+    cursor: pointer;
+    color: #168d5c;
+    color: #eee;
+    background: linear-gradient(to bottom, #014b29 25%,#168d5c 100%);
+}
+.button:active{
+    background: linear-gradient(to bottom, #014b29 50%,#168d5c 100%);
+}
+
+.button#start, .button#stop {
+    left:  5px;
+}
+.button#stake {
+    left:  106px;
+}
+.button#auto, .button#break {
+    right: 106px;
+}
+.button#hint, .button#play {
+    right:5px;
+}
+
+.button#sounds{
+    width:100px;
+    right:2px;
+}
+
+.button#sounds:before{
+    width: 104px;
+}
+

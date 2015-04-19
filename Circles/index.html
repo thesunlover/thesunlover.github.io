@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Една игра на шега?</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="styles/index.css" type="text/css" />
+    <link rel="stylesheet" href="styles/tiles.css" type="text/css" />
+    <link rel="stylesheet" href="styles/hints.css" type="text/css" />
+    <link rel="stylesheet" href="styles/buttons.css" type="text/css" />
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.5/TweenMax.min.js"></script>
+    <!--<script src="scripts/greensock/TweenMax.min.js" defer></script>-->
+    <script type="text/javascript" src="scripts/underscore.min.js" defer></script>
+    <script type="text/javascript" src="scripts/jquery.min.js" defer></script>
+    <script type="text/javascript" src="scripts/view.js" defer></script>
+    <script type="text/javascript" src="scripts/my.js" defer></script>
+</head>
+<body>
+<div id="phone">
+    <div id="game">
+        <div id="header">
+            <div id="bet-price">BET: <span id="bet">0</span></div>
+            <div id="score-board">BALANCE: <span id="balance">0</span></div>
+            
+        </div>
+        <div id="panel-left" class="panel">
+            <div id="bigCircle-left" class="bigCircle">
+                <div id="tile-left0" class="tile tile0"></div>
+                <div id="tile-left1" class="tile tile1"></div>
+                <div id="tile-left2" class="tile tile2"></div>
+                <div id="tile-left3" class="tile tile3"></div>
+                <div id="tile-left4" class="tile tile4"></div>
+                <div id="tile-left5" class="tile tile5"></div>
+                <div id="tile-left6" class="tile tile6"></div>
+                <div id="tile-left7" class="tile tile7"></div>
+                <div id="central-circ-left" class="central-circ"></div>
+            </div>
+        </div>
+        <div id="panel-mid" class="panel">
+            <div id="bigCircle-mid" class="bigCircle">
+                <div id="tile-mid0" class="tile tile0"></div>
+                <div id="tile-mid1" class="tile tile1"></div>
+                <div id="tile-mid2" class="tile tile2"></div>
+                <div id="tile-mid3" class="tile tile3"></div>
+                <div id="tile-mid4" class="tile tile4"></div>
+                <div id="tile-mid5" class="tile tile5"></div>
+                <div id="tile-mid6" class="tile tile6"></div>
+                <div id="tile-mid7" class="tile tile7"></div>
+                <div id="central-circ-mid" class="central-circ"></div>
+            </div>
+        </div>
+        <div id="panel-right" class="panel">
+            <div id="bigCircle-right" class="bigCircle">
+                <div id="tile-right0" class="tile tile0"></div>
+                <div id="tile-right1" class="tile tile1"></div>
+                <div id="tile-right2" class="tile tile2"></div>
+                <div id="tile-right3" class="tile tile3"></div>
+                <div id="tile-right4" class="tile tile4"></div>
+                <div id="tile-right5" class="tile tile5"></div>
+                <div id="tile-right6" class="tile tile6"></div>
+                <div id="tile-right7" class="tile tile7"></div>
+                <div id="central-circ-right" class="central-circ"></div>
+            </div>
+        </div>
+        <div id="page1" class="hint">
+                <div id="hint_symbol0" class="hintSymbolContainers"><div id='img_symbol0' class="hintTile symbol0 win"></div> = BET * <span id="BETx0" class="bets"></span> </div>
+                <div id="hint_symbol4" class="hintSymbolContainers"><div id='img_symbol4' class="hintTile symbol4 win"></div> = BET * <span id="BETx4" class="bets"></span> </div>
+                <div id="hint_symbol7" class="hintSymbolContainers"><div id='img_symbol7' class="hintTile symbol7 win"></div> = BET * <span id="BETx7" class="bets"></span> </div>
+                <div id="hint_symbol1" class="hintSymbolContainers"><div id='img_symbol1' class="hintTile symbol1 win"></div> = BET * <span id="BETx1" class="bets"></span> </div>
+                <div id="hint_symbol2" class="hintSymbolContainers"><div id='img_symbol2' class="hintTile symbol2 win"></div> = BET * <span id="BETx2" class="bets"></span> </div>
+                <div id="hint_symbol5" class="hintSymbolContainers"><div id='img_symbol5' class="hintTile symbol5 win"></div> = BET * <span id="BETx5" class="bets"></span> </div>
+                <div id="hint_symbol3" class="hintSymbolContainers"><div id='img_symbol3' class="hintTile symbol3 win"></div> = BET * <span id="BETx3" class="bets"></span> </div>
+                <div id="hint_symbol6" class="hintSymbolContainers"><div id='img_symbol6' class="hintTile symbol6 win"></div> = BET * <span id="BETx6" class="bets"></span> </div>
+        </div>
+        <div id="buttons">
+                <div id="start" class="button">ROLL</div>
+                <div id="stop" class="button">STOP</div>
+                <div id="stake" class="button">STAKE</div>
+                <div id="auto" class="button">AUTO</div>
+                <div id="break" class="button">STOP</div>
+                <div id="hint" class="button">PAYS</div>
+                <div id="play" class="button">PLAY</div>
+                <div id="sounds" class="button second-line">SOUNDS</div>
+        </div>
+        <div id="footer">
+            <div id="hintPage0" class="status">Each symbol is used exactly once</div>
+            <div id="hintPage1" class="status">Goal: the more symbols you have in the same sector the better</div>
+            
+            <div id="toGame" class="status">RETURN TO GAME</div>
+            <div id="rolling" class="status">It's rolling, rolling, rolling...</div>
+            <div id="calculate" class="status">Profit calculation...</div>
+            <div id="goodLuck" class="status">Better luck next time.</div>
+            <!--auto-->
+            <div id="autoStarted" class="status">Auto spins left: <span id="autoRollsLeft">50</span></div>
+            <div id="autoStopped" class="status">Auto rolling stopped.</div>
+            <div id="autoCompleted" class="status">Completed automation.</div>
+
+            <div id="rollProfit" class="status">Profitted: <span id="profitPerRoll">0</span></div>
+            <div id="stakeUp" class="status">Raizing bet value to: <span id="stakeUpTo">0</span></div>
+            <div id="maxStake" class="status">Maximum bet value reached.</div>
+            <div id="noMoney" class="status">Not enough money to pay the bet.</div>
+            <div id="scoring" class="status"><p>Calculating Score/show win positions only/</p></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Sticky Notes by Iskren Stanislavov</title>
+
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" />
+	<link href='http://fonts.googleapis.com/css?family=Tinos:400italic&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css' />
+	<link href="styles/styles.css" rel="stylesheet" type="text/css" />
+
+	<script src="scripts/localStorageModernizer.js" defer></script>
+	<script src="http://code.createjs.com/easeljs-0.7.1.min.js" defer></script>
+	<script src="http://code.createjs.com/tweenjs-0.5.1.min.js" defer></script>
+	<script src="http://code.createjs.com/preloadjs-0.4.1.min.js" defer></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.5/TweenLite.min.js" defer></script>
+	<script src="http://code.jquery.com/jquery-2.1.0.js" defer></script>
+	<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js" defer></script>
+	<script src='http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js' defer></script>
+	<script type="text/javascript" src="scripts/my.js" defer></script>
+
+
+</head>
+
+<body>
+
+	<div id="loader" class="loader"></div>
+	<div class="canvasHolder">
+		<canvas id="board" width="700" height="400"></canvas>
+	</div>
+
+	<div id="dialog-form" title="Edit note">
+		<p class="validateTips">Please enter the fields.</p>
+		<form>
+		<fieldset>
+			<label for="noteTitle">Note title</label>
+				<input type="text" name="title of note" id="noteTitle" value="" class="text ui-widget-content ui-corner-all" />
+			<label for="noteContent">Note content</label>
+				<input type="text" name="content of note" id="noteContent" value="Already entered text" class="text ui-widget-content ui-corner-all" />
+		</fieldset>
+		</form>
+	</div>
+
+</body>
+</html>
