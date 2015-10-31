@@ -6,7 +6,8 @@ var sass        = require('gulp-sass');
 // var rename = require('gulp-rename');
 // var minifyCSS = require('gulp-minify-css');
 var sourcemaps = require('gulp-sourcemaps');
-
+var requirejsOptimize = require('gulp-requirejs-optimize');
+ 
 var SASSsources = ['./new.scss',];
 var actionsByOrderForDefault = [];
 
@@ -17,6 +18,15 @@ gulp.task('html', function() {
 		return gulp.src(["./new.html","./index.html",])
 	        .pipe(gulp.dest('./http/'))
 	        .pipe(browserSync.stream());
+});
+
+actionsByOrderForDefault.push('scripts');
+gulp.task('scripts', function () {
+    return gulp.src('main.js')
+        .pipe(sourcemaps.init())
+        .pipe(requirejsOptimize())
+        .pipe(sourcemaps.write())
+        .pipe(gulp.dest('http'));
 });
 
 actionsByOrderForDefault.push('sass');
@@ -55,13 +65,8 @@ gulp.task('watch', function(){
 	SASSsources.forEach(function(source){
 		gulp.watch(source, ['sass']);
 	});
-	gulp.watch("./*.html").on('change', function(){
-		gulp.src(["./new.html","./index.html",])
-	        .pipe(gulp.dest('./http/'))
-	        .pipe(browserSync.stream());
-
-		// browserSync.reload();
-	});
+	gulp.watch("./*.html", ['html']);
+	gulp.watch("./main.js", ['scripts']);
 });
 
 

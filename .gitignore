@@ -1,5 +1,7 @@
 
 node_modules
 http
-
-http/index.html
+http\*.html
+http\*.css
+http\*.*
+http/new.css
