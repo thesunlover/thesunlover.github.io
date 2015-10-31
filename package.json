@@ -1,0 +1,26 @@
+{
+  "name": "NerksI",
+  "version": "1.0.0",
+  "description": "Iskren Stanislavov-Искрен Станиславов",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nerksi/nerksi.portfolio.git"
+  },
+  "author": "Iskren Stanislavov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nerksi/nerksi.portfolio/issues"
+  },
+  "homepage": "https://github.com/nerksi/nerksi.portfolio#readme",
+  "devDependencies": {
+    "browser-sync": "^2.9.11",
+    "scrollmagic":"^2.0.5",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp": "^3.9.0"
+  }
+}

@@ -1,0 +1,31 @@
+$blue : #0ca3da;// blue
+
+body,h1,h2,h3,h4,h5,h6, div, span, p { margin: 0; padding: 0; border: 0;}
+body {
+    margin: 0 auto;
+    width: 200mm;
+    height: 250mm;
+    font: 14px 'Roboto', arial, sans-serif;
+    padding-top:30px;
+    }
+
+// The .inner will keep the text centered and have the max-width set to 85% to prevent text touching the edges of the browser on smaller screens.
+section {
+    height: 100%;
+    color: white;
+    position: relative;
+    text-align: center;
+    &#contacts{ background-color: $blue;}
+    &#one{ background-color: darken($blue, 10%);}
+    &#two{ background-color: darken($blue, 20%);}
+    &#three{ background-color: lighten($blue, 10%);}
+    &#four{ background-color: lighten($blue, 20%);}
+    &#five{ background-color: saturate($blue, 90);}
+    &#six{ background-color: saturate($blue, 70%);}
+
+    /* Center the content of the sections */
+    .inner {
+        margin: 0 auto;
+        max-width: 85%;
+    }
+}@media print{}
