@@ -5,14 +5,14 @@
 <head>
     <title>Професионална автобиография</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="styles.css" type="text/css" />
     <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.5/TweenMax.min.js" defer></script>
     <script data-main="scripts/simple" src="scripts/require.js" defer></script>
 </head>
 <body>
     <header>
-        <img id="myPhoto" src="images/myPhoto.jpg" />
+        <img id="myPhoto" src="images/myPhoto.png" />
         <h1 id="name"><span id="firstName">Искрен</span> <span id="lastName">Станиславов</span></h1>
         <h2><span id="profession1">JavaScript</span> <span id='profession2'>Game Developer</span></h2>
     </header>
@@ -21,25 +21,32 @@
                 <h3><img id="myGoals" src="images/myGoals.png"/>Цели</h3>
                 <p>
                     JavaScript(JS) буквално разпали още по-силно интереса ми към програмирането.
-                    За краткото време, за което имах възможност да изследвам потенциала на езика JS,
-                    натрупах многократно повече умения и познания за програмирането. Освен това,
-                    когато за първи път се сблъсках с темата сигурност при писането на JavaScript код
-                    осъзнах, какво интересно предизвикателство е писането на мобилни приложения.
+                    За краткото време, за което имах възможност да изследвам потенциала на езика,
+                    натрупах многократно повече умения и познания за програмирането. Когато за
+                    първи път се сблъсках ООП в JavaScript си дадох сметка, че писането на
+                    мобилни игри и приложения ще бъде едно вълнуващо предизвикателство.
                 </p>
         </div>
         <div id = "experience" class="main left">
             <h3><img id="myExperience" src="images/myExperience.png"/>Oпит</h3>
             <section class="timeline">
+                <div class="wrapTimeLine cayetano"><aside>2014 – ...</aside></div>
+                <div class="wrapTLright">
+                    <h4>JavaScript Game Dev</h4>
+                    <p> Разработка на слот игри за таблети и телефони.<br/>
+                        Поради постоянно повишаващите се изисквания се налага да търсим все по-добри решения.<br/>
+                        Част от използваните технологии включват доказали се вече библиотеки:<br/>
+                    </p>
+                    <ul>
+                        <li>- EaselJS v7.0 - библиотека за canvas анимации</li>
+                        <li>- PIXIjs v2 &amp; v3 - WebGL библиотекa с Canvas fallback</li>
+                    </ul>
+                    <h5>Cayetano Gaming, София - онлайн казино игри за Paddy Power - най-голото онлайн казино в Ирландия</h5>
+                </div>
                 <div class="wrapTimeLine vintech"><aside>2010 – 2014</aside></div>
                 <div class="wrapTLright">
                     <h4>Програмист софтуерни приложения</h4>
-                    <p> Модул за създаване на „Оферта“ според използваните материали и видовете обработки<br/>
-                        Галерия макроси за създаване на разкройна геометрия за правоъгълни и цилиндрични и конични въздуховоди<br/>
-                        Модул за менаджиране на поръчки във RCAM<br/>
-                        Галерия макроси за създаване на тръбни заготовки<br/>
-                        Модул за паралелно рязане на еднакви детайли<br/>
-                        Поддръжка и разработка на складово-счетоводни продукти<br/>
-                    </p>
+                    <p> Модули с различни приложения („Оферта“, управление на поръчки, галерия въздуховоди и др.) </p>
                     <h5>„Винтех" ООД, Варна - CAM софтуер за разкрой и NC програмиране, Счетоводен Софтуер</h5>
                 </div>
                 <div class="wrapTimeLine rodis"><aside>2008 – 2010</aside></div>
@@ -51,7 +58,7 @@
             </section>
         </div>
         <div id = "education" class="main left">
-            <h3><img id="myEducation" src="images/myEducation.png"/>Образвание</h3>
+            <h3><img id="myEducation" src="images/myEducation.png"/>Образование</h3>
             <section class="timeline">
                 <div class="wrapTimeLine uni"><aside>2004 – 2009</aside></div>
                 <div class="wrapTLright">
@@ -67,30 +74,33 @@
             </section>
         </div>
         <div id = "skills" class = "main right">
-            <h3><img id="mySkills" src="images/mySkills.png"/>Умения</h3>
-            <div class="skill_wrap"><span class="wrap">Javascript</span> <span class="barA"><img src="images/bar.gif" id="js" class="bar"/></span></div>
-            <div class="skill_wrap"><span class="wrap">jQuery</span> <span class="barA"><img src="images/bar.gif" id="jquery" class="bar"/></span></div>
+            <h3><img id="mySkills" src="images/mySkills.png"/>Работа с:</h3>
+            <div class="skill_wrap"><span class="wrap">ECMAScript 5</span> <span class="barA"><img src="images/bar.gif" id="ecmascript" class="bar"/></span></div>
             <div class="skill_wrap"><span class="wrap">Zepto</span> <span class="barA"><img src="images/bar.gif" id="zepto" class="bar"/></span></div>
             <div class="skill_wrap"><span class="wrap">Underscore.js</span> <span class="barA"><img src="images/bar.gif" id="undr" class="bar"/></span></div>
-            <div class="skill_wrap"><span class="wrap">CSS3</span> <span class="barA"><img src="images/bar.gif" id="css" class="bar"/></span></div>
-            <div class="skill_wrap"><span class="wrap">HTML5</span> <span class="barA"><img src="images/bar.gif" id="html5" class="bar"/></span></div>
-            <div class="skill_wrap"><span class="wrap">GSAP</span> <span class="barA"><img src="images/bar.gif" id="GSAP" class="bar"/></span></div>
-            <div class="skill_wrap"><span class="wrap">Python</span> <span class="barA"><img src="images/bar.gif" id="python" class="bar"/></span></div>
-            <div class="skill_wrap"><span class="wrap">C#</span> <span class="barA"><img src="images/bar.gif" id="csharp" class="bar"/></span></div>
-            <div class="skill_wrap"><span class="wrap">Java</span> <span class="barA"><img src="images/bar.gif" id="java" class="bar"/></span></div>
+            <div class="skill_wrap"><span class="wrap">jQuery, CSS3, HTML5</span> <span class="barA"><img src="images/bar.gif" id="css_html5" class="bar"/></span></div>
+            <div class="skill_wrap"><span class="wrap"><a href="http://www.pixijs.com/">PIXIjs</a></span> <span class="barA"><img src="images/bar.gif" id="pixijs" class="bar"/></span></div>
+            <div class="skill_wrap"><span class="wrap"><a href="http://www.createjs.com/EaselJS">EaselJS</a></span> <span class="barA"><img src="images/bar.gif" id="createjs" class="bar"/></span></div>
+            <div class="skill_wrap"><span class="wrap"><a href="http://greensock.com/gsap">GreenSock</a></span> <span class="barA"><img src="images/bar.gif" id="GreenSock" class="bar"/></span></div>
+            <div class="skill_wrap"><span class="wrap"><a href="http://www.python.org/">Python 2.7</a></span> <span class="barA"><img src="images/bar.gif" id="python" class="bar"/></span></div>
+            <div class="skill_wrap"><span class="wrap">Алгоритми</span> <span class="barA"><img src="images/bar.gif" id="algorythms" class="bar"/></span></div>
+            <div class="skill_wrap"><span class="wrap">C#, Java</span> <span class="barA"><img src="images/bar.gif" id="other" class="bar"/></span></div>
         </div>
         <div id = "projects" class = "main right">
             <h3><img id="myOwnProjects" src="images/myOwnProjects.png"/>Проекти</h3>
             <ul>
-                <li>JS & Canvas: <a class="Circles" href="Notes/">Sticky Notes</a></li>
-                <li>JS & CSS3: <a class="Circles" href="Circles/">Circles</a></li>
-                <li> Python: <a href="https://www.dropbox.com/s/zxhq2nw2c6sw0vu/pySudoku.7z">pySudoku</a></li>
+                <li>PIXIjs: <a class="Circles" href="https://github.com/thesunlover/mySokoJS/tree/PIXI/">Sokoban</a> (от 02.2015г.)</li>
+                <li>EaselJS: <a class="Circles" href="https://github.com/thesunlover/mySokoJS/">Sokoban</a> (от 11.2014г.)</li>
+                <li>CSS &amp; EaselJS: <a class="Circles" href="Notes/">Notes</a> (03.2014 год.)</li>
+                <li>JS &amp; CSS3: <a class="Circles" href="Circles/">Circles</a> (02.2014 год.)</li>
+                <!-- <li> Python: <a href="https://www.dropbox.com/s/zxhq2nw2c6sw0vu/pySudoku.7z">pySudoku</a></li> -->
             </ul>
         </div>
         <div id = "interests" class = "main right">
             <h3><img id="myInterests" src="images/myInterests.png"/>Интереси</h3>
             <ul>
-                <li>WebGL, PIXI js, SASS, LESS, Node.js</li>
+                <li>Алгоритми, Node.js, PhoneGap, ApacheCordova, CocoonJS</li>
+                <li><a href="https://phaser.io/">Phaser</a></li>
             </ul>
         </div>
         <div id = "languages" class = "main right">

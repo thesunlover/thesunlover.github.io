@@ -51,7 +51,7 @@ header {
     padding: 0 15px 0 15px;
 }
 #experience {
-    bottom:  190px;
+    bottom:  210px;
     height: 420px;
 
 }
@@ -196,16 +196,16 @@ img.bar {content: url(images/bar.gif) !important;}
  width : 95px;
 }
 
-#python {width:75px;}
-#js {width:70px;}
-#jquery {width:60px;}
+#ecmascript {width:70px;}
 #zepto{width:60px;}
-#undr {width:65px;}
-#css {width:70px;}
-#html5 {width:65px;}
-#GSAP {width:20px;}
-#csharp {width:20px;}
-#java {width:20px;}
+#undr {width:20px;}
+#css_html5 {width:20px;}
+#pixijs {width:80px;}
+#createjs {width:75px;}
+#GreenSock {width:80px;}
+#python {width:75px;}
+#other,
+#algorythms {width:3px;}
 
 #english {width:75px;font-size: 11px;}
 
@@ -243,7 +243,8 @@ h4 {color: #0ca3da;}
 .uni{height:30px;top:-15px;right:-10px;}
 .school{height:30px;top:0px;right:-10px;}
 .rodis{height:30px;top:-15px;right:-10px;}
-.vintech{height:30px;top:-185px;right:-10px;}
+.vintech{height:30px;top:-45px;right:-10px;}
+.cayetano{height:30px;top:-180px;right:-10px;}
 .wrapTLright{
     width: 80%;
     height: 100%;
