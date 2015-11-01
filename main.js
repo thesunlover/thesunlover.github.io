@@ -8,7 +8,12 @@ define(function (require) {
 	            triggerHook: 'onLeave'
 	        }
 	    });
-	    this.pages = [].slice.call(document.getElementsByTagName("section"));
+	    this.pages = [].slice.call(
+	    	document.getElementsByTagName("header")
+	    	).concat([].slice.call(
+	    	document.getElementsByTagName("section")
+	    	)
+		);
 	    // console.log(this.pages);
 
 	    this.pages.map(this.addPage, this);

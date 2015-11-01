@@ -1,3 +1,4 @@
+$darkblue : #123678;// blue
 $blue : #0ca3da;// blue
 
 body,h1,h2,h3,h4,h5,h6, div, span, p { margin: 0; padding: 0; border: 0;}
@@ -5,14 +6,50 @@ body {
     margin: 0 auto;
     width: 200mm;
     height: 250mm;
-    font: 14px 'Roboto', arial, sans-serif;
+    font-family: 'Roboto', arial, sans-serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+
+}
+header {
+    h1, h2 {
+        text-transform:uppercase;
+    }
+    h1 {
+        font-size: 36pt;
+    }
+    h2 {
+        font-size: 20pt;
+        display: inline-block;
+        margin-left:20px;
+        color:  $blue;
     }
 
+    h1 #firstName, h2 #profession2 {
+        font-weight: 400;
+    }
+    h1 #lastName, h2 #profession1 {
+        font-weight: 700;
+    }
+    img#myPhoto{
+        border-right: solid 6pt $blue;
+        padding-right: 15pt;
+        width: 120px;
+        height: 160px;
+        float: left;
+        display: inline-block;
+        margin-right: 15pt;
+        padding: 10pt;
+        padding-right: 15pt;
+        /*background-color: $darkblue;*/
+    } 
+}
+
 // The .inner will keep the text centered and have the max-width set to 85% to prevent text touching the edges of the browser on smaller screens.
-section {
-    height: 100%;
+header,section {
+    height: 90%;
     width: 100%;
-    color: white;
+    color: black;
     position: relative;
     text-align: center;
     &#contacts{ background-color: $blue;}
