@@ -1,4 +1,4 @@
 node_modules
-http\*.html
-http\*.css
+http/*.html
+http/*.css
 http/main.js
