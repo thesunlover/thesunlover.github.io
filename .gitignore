@@ -1,7 +1,4 @@
-
 node_modules
-http
 http\*.html
 http\*.css
-http\*.*
-http/new.css
+http/main.js
