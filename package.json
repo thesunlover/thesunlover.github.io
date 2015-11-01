@@ -20,8 +20,8 @@
     "browser-sync": "^2.9.11",
     "scrollmagic":"^2.0.5",
     "gulp-sass": "^2.1.0",
+    "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^1.6.0",
-    "gulp-requirejs-optimize": "^0.3.0",
     "gulp": "^3.9.0"
   }
 }
