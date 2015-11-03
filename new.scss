@@ -52,6 +52,7 @@ header,section {
     color: black;
     position: relative;
     text-align: center;
+    & p{opacity: 0;}
     &#contacts{ background-color: $blue;}
     &#one{ background-color: darken($blue, 10%);}
     &#two{ background-color: darken($blue, 20%);}
