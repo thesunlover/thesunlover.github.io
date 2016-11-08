@@ -3,10 +3,10 @@ body {
     margin: 0 auto;
     width: 200mm;
     height: 250mm;
-    font: 14px 'Roboto', arial, sans-serif;
+    font: 15px 'Roboto', arial, sans-serif;
     /*font: 14px arial, sans-serif;*/
     padding-top:30px;
-    }
+}
 
 a:hover,a:active,a:visited, a:link{
     color: #0ca3da;
@@ -49,6 +49,7 @@ header {
 }
 #goals > p{
     padding: 0 15px 0 15px;
+    font-size:17px;
 }
 #experience {
     bottom:  210px;
@@ -67,16 +68,16 @@ header {
 }
 #projects {
     right: 0;
-    top: 280px;
+    top: 220px;
     height:140px;
 }
 #interests {
-    bottom:  300px;
+    bottom:  340px;
     right: 0;
     height:130px;
 }
 #languages {
-    bottom:  190px;
+    bottom:  220px;
     right: 0;
     height:110px;
 }
@@ -197,15 +198,12 @@ img.bar {content: url(images/bar.gif) !important;}
 }
 
 #ecmascript {width:70px;}
-#zepto{width:60px;}
-#undr {width:20px;}
-#css_html5 {width:20px;}
+#css_html5 {width:70px;}
 #pixijs {width:80px;}
 #createjs {width:75px;}
 #GreenSock {width:80px;}
 #python {width:75px;}
-#other,
-#algorythms {width:3px;}
+#haxe {width:75px;}
 
 #english {width:75px;font-size: 11px;}
 
@@ -216,7 +214,7 @@ aside{
     height: 100%;
     width:100%;
     left:  0px;
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 700;
     transform:  rotate(-15deg);
     transform-origin: top left;
@@ -234,6 +232,7 @@ aside{
     }
 
 h4 {color: #0ca3da;}
+h5>a:hover, h5>a:active, h5>a:visited, h5>a:link{font-weight: bold;}
 .wrapTimeLine {
     width: 15%;
     display: inline-block;
@@ -243,14 +242,16 @@ h4 {color: #0ca3da;}
 .uni{height:30px;top:-15px;right:-10px;}
 .school{height:30px;top:0px;right:-10px;}
 .rodis{height:30px;top:-15px;right:-10px;}
-.vintech{height:30px;top:-45px;right:-10px;}
-.cayetano{height:30px;top:-180px;right:-10px;}
+.vintech{height:30px;top:-25px;right:-10px;}
+.cayetano{height:30px;top:-10px;right:-10px;}
+.haxe{height:30px;top:-60px;right:-10px;}
 .wrapTLright{
     width: 80%;
     height: 100%;
     display: inline-block;
     border-left: 1pt dashed black;
     padding-left: 10pt;
+    margin-bottom: 20px;
 }
 
 h2 .account {
