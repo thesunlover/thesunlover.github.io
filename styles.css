@@ -52,8 +52,8 @@ header {
     font-size:17px;
 }
 #experience {
-    bottom:  210px;
-    height: 420px;
+    bottom:  200px;
+    height: 450px;
 
 }
 #education {
@@ -239,19 +239,19 @@ h5>a:hover, h5>a:active, h5>a:visited, h5>a:link{font-weight: bold;}
     position: relative;
 }
 
-.uni{height:30px;top:-15px;right:-10px;}
-.school{height:30px;top:0px;right:-10px;}
+.uni{height:30px;top:0px;right:-10px;}
+.school{height:30px;top:15px;right:-10px;}
 .rodis{height:30px;top:-15px;right:-10px;}
 .vintech{height:30px;top:-25px;right:-10px;}
-.cayetano{height:30px;top:-10px;right:-10px;}
-.haxe{height:30px;top:-60px;right:-10px;}
+.cayetano{height:30px;top:-30px;right:-10px;}
+.melontech{height:30px;top:-85px;right:-10px;}
 .wrapTLright{
     width: 80%;
     height: 100%;
     display: inline-block;
     border-left: 1pt dashed black;
     padding-left: 10pt;
-    margin-bottom: 20px;
+    margin-bottom: 1em;
 }
 
 h2 .account {
