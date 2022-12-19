@@ -90,7 +90,10 @@ header {
 }
 ul {
     list-style:none;
-    padding-left:0;
+    padding-left:10px;
+}
+ul.m-dash {
+    list-style-type: "- ";
 }
 
 h1, h2 {
