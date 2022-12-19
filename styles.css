@@ -46,6 +46,7 @@ header {
     top: 0px;
     height: 220px;
     text-align: justify;
+    display: none;
 }
 #goals > p{
     padding: 0 15px 0 15px;
@@ -53,7 +54,7 @@ header {
 }
 #experience {
     bottom:  200px;
-    height: 450px;
+    height: 650px;
 
 }
 #education {
@@ -120,10 +121,10 @@ h3 {
 
 h3>img, p>img{margin-right: 15pt;}
 
-h1 #firstName, h2 #profession2 {
+.m-normal {
     font-weight: 300;
 }
-h1 #lastName, h2 #profession1 {
+.m-bold {
     font-weight: 700;
 }
 img#myPhoto{
@@ -245,6 +246,7 @@ h5>a:hover, h5>a:active, h5>a:visited, h5>a:link{font-weight: bold;}
 .vintech{height:30px;top:-25px;right:-10px;}
 .cayetano{height:30px;top:-30px;right:-10px;}
 .melontech{height:30px;top:-85px;right:-10px;}
+.astound{height:30px;top:-75px;right:-10px;}
 .wrapTLright{
     width: 80%;
     height: 100%;
