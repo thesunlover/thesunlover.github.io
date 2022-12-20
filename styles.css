@@ -93,6 +93,8 @@ ul {
 }
 ul.m-dash {
     list-style-type: "- ";
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 h1, h2 {
@@ -128,12 +130,10 @@ h3>img, p>img{margin-right: 15pt;}
 }
 h4 a:hover, h4 a:active, h4 a:visited, h4 a:link {
     font-weight: 700;
+    color:gray;
 }
 .m-bold {
     font-weight: 700;
-}
-h4 a.m-bold:hover, a.m-bold:active, a.m-bold:visited, a.m-bold:link {
-    color:gray;
 }
 img#myPhoto{
     width: 120px;
@@ -254,8 +254,8 @@ h5>a:hover, h5>a:active, h5>a:visited, h5>a:link{font-weight: bold;}
 .rodis{height:30px;top:-15px;right:-10px;}
 .vintech{height:30px;top:-25px;right:-10px;}
 .cayetano{height:30px;top:-30px;right:-10px;}
-.melontech{height:30px;top:-85px;right:-10px;}
-.astound{height:30px;top:-140px;right:-10px;}
+.melontech{height:30px;top: -45px;right:-10px;}
+.astound{height:30px;top: -90px;right:-10px;}
 .wrapTLright{
     width: 80%;
     height: 100%;
