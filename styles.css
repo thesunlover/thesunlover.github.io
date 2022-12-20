@@ -55,7 +55,6 @@ header {
 #experience {
     bottom:  200px;
     height: 650px;
-
 }
 #education {
     top:  auto;
@@ -124,11 +123,17 @@ h3 {
 
 h3>img, p>img{margin-right: 15pt;}
 
-.m-normal {
+.m-bold {
     font-weight: 300;
+}
+h4 a:hover, h4 a:active, h4 a:visited, h4 a:link {
+    font-weight: 700;
 }
 .m-bold {
     font-weight: 700;
+}
+h4 a.m-bold:hover, a.m-bold:active, a.m-bold:visited, a.m-bold:link {
+    color:gray;
 }
 img#myPhoto{
     width: 120px;
@@ -207,6 +212,7 @@ img.bar {content: url(images/bar.gif) !important;}
 #createjs {width:75px;}
 #GreenSock {width:80px;}
 #python {width:75px;}
+#demandware {width:75px;}
 #haxe {width:75px;}
 
 #english {width:75px;font-size: 11px;}
@@ -249,7 +255,7 @@ h5>a:hover, h5>a:active, h5>a:visited, h5>a:link{font-weight: bold;}
 .vintech{height:30px;top:-25px;right:-10px;}
 .cayetano{height:30px;top:-30px;right:-10px;}
 .melontech{height:30px;top:-85px;right:-10px;}
-.astound{height:30px;top:-75px;right:-10px;}
+.astound{height:30px;top:-140px;right:-10px;}
 .wrapTLright{
     width: 80%;
     height: 100%;
