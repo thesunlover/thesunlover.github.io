@@ -108,7 +108,7 @@ function testNormalize(count) {
 
 const TEST_DATA = [
     {// case 100% overlapping
-        hint: '(a rectangle with itself)',
+        hint: '(a rectangle with itself, Figure 1)',
         r1: new Rectangle(
             new P('A', 0, 0),
             new P('B', 10, 0),
@@ -123,7 +123,7 @@ const TEST_DATA = [
         ),
     },
     { // case black: 1 point D1 inside r1
-        hint: '(the 2 back rectangles)',
+        hint: '(the two back rectangles, Figure 1)',
         r1: new Rectangle(
             new P('A', 0, 0),
             new P('B', 10, 0),
@@ -138,7 +138,7 @@ const TEST_DATA = [
         ),
     },
     { // case red: tangential
-        hint: '(black and the tangential red rectangle)',
+        hint: '(the black and the tangential red rectangle, Figure 1)',
         r1: new Rectangle(
             new P('A', 0, 0),
             new P('B', 10, 0),
@@ -153,7 +153,7 @@ const TEST_DATA = [
         ),
     },
     { // case blue: 2 points B,C inside in r2
-        hint: '(blue: 2 points B,C inside in r2)',
+        hint: '(blue: 2 points B,C inside in r2, Figure 1)',
         r1: new Rectangle(
             new P('A', 0, 0),
             new P('B', 10, 0),
@@ -168,7 +168,7 @@ const TEST_DATA = [
         ),
     },
     { // case red(r2) inside blue(r1)
-        hint: '(red(r2) inside blue(r1))',
+        hint: '(red(r2) inside blue(r1), Figure 1)',
         r1: new Rectangle(
             new P('A', 7, -7),
             new P('B', 20, -7),
@@ -183,7 +183,7 @@ const TEST_DATA = [
         ),
     },
     { // crossing case green(r1) and purple(r2)
-        hint: '(crossing case green(r1) and purple(r2))',
+        hint: '(crossing case green(r1) and purple(r2), Figure 2)',
         r1: new Rectangle(
             new P('A', 10, 0),
             new P('B', 20, 0),
