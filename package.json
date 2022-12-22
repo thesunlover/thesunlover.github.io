@@ -4,7 +4,7 @@
   "description": "My Portfolio - Iskren Stanislavov",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./scripts/rectangleIntersections.js"
   },
   "repository": {
     "type": "git",
