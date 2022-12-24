@@ -56,33 +56,33 @@ header {
     bottom:  200px;
     height: 650px;
 }
-#education {
+.b-education {
     top:  auto;
     height: 190px;
     bottom:0;
 }
-#skills {
+.b-skills {
     right: 0;
     top: 0;
     height: 280px;
 }
-#projects {
+.b-projects {
     right: 0;
     top: 220px;
     height:140px;
 }
-#interests {
+.b-interests {
     bottom:  340px;
     right: 0;
     height:130px;
 }
-#languages {
+.b-languages {
     bottom:  220px;
     right: 0;
     height:110px;
 }
 
-#info {
+.b-info {
     right:0px;
     bottom:0px;
     height: 190px;
