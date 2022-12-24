@@ -15,7 +15,7 @@ a:hover,a:active,a:visited, a:link{
 }
 
 a.Circles {font-weight: 700;}
-#wrapper {
+.b-main-wrapper {
     position: relative;
     margin: 0 auto;
     width: 100%;
@@ -42,17 +42,17 @@ header {
 }
 .main.left{width:63%}
 .main.right{width:36%}
-#goals {
+.b-goals {
     top: 0px;
     height: 220px;
     text-align: justify;
     display: none;
 }
-#goals > p{
+.b-goals > p{
     padding: 0 15px 0 15px;
     font-size:17px;
 }
-#experience {
+.b-experience {
     bottom:  200px;
     height: 650px;
 }
@@ -147,7 +147,7 @@ img#myPhoto{
 /* images */
 #myContactDetails{ width: 36px; height: 36px; } 
 #myEducation{ width: 36px; height: 36px; } 
-#myExperience{ width: 36px; height: 36px; } 
+.m-img-experience{ width: 36px; height: 36px; } 
 #myGoals{ width: 36px; height: 36px; } 
 #myInterests{ width: 36px; height: 36px; } 
 #myLanguages{ width: 36px; height: 36px; } 
