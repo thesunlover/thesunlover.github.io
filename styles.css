@@ -145,8 +145,8 @@ img#myPhoto{
     padding-right: 15pt;
 } 
 /* images */
-#myContactDetails{ width: 36px; height: 36px; } 
-#myEducation{ width: 36px; height: 36px; } 
+.m-img-contacts{ width: 36px; height: 36px; } 
+.m-img-education{ width: 36px; height: 36px; } 
 .m-img-experience{ width: 36px; height: 36px; } 
 #myGoals{ width: 36px; height: 36px; } 
 #myInterests{ width: 36px; height: 36px; } 
