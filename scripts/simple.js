@@ -22,5 +22,5 @@ require.config({
 define(['jquery'], function ($) {
     $('.bar').after('<img src="images/barA.gif" class="barA"/>');
     tl = new TimelineMax()
-    tl.staggerFrom($('.skill_wrap>.barA img.bar'), 0.5, {width:0},0.5);// w/o English
+    tl.staggerFrom(document.querySelectorAll('.skill_wrap>.barA img.bar'), 0.5, {width:0},0.5);// w/o English
 });
