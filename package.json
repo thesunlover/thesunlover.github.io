@@ -1,9 +1,10 @@
 {
   "name": "thesunlover.github.io",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "My Portfolio - Iskren Stanislavov",
-  "main": "index.html",
+  "private": true,
   "scripts": {
+    "build": "webpack",
     "test": "node ./scripts/rectangleIntersections.js"
   },
   "repository": {
@@ -21,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/thesunlover/thesunlover.github.io/issues"
   },
-  "homepage": "https://thesunlover.github.io/"
+  "homepage": "https://thesunlover.github.io/",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "gsap": "^3.11.4",
+    "jquery": "^1.11.0"
+  }
 }
