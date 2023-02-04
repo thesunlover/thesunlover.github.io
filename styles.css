@@ -222,7 +222,7 @@ aside{
     position: relative;
     display: inline-block !important;
     height: 100%;
-    width:100%;
+    width: 15%;
     left:  0px;
     font-size: 13px;
     font-weight: 700;
@@ -239,15 +239,11 @@ aside{
     -ms-transform-origin: top left;
     -o-transform:  rotate(-15deg);
     -o-transform-origin: top left;
+
     }
 
 h4 {color: #0ca3da;}
 h5>a:hover, h5>a:active, h5>a:visited, h5>a:link{font-weight: bold;}
-.wrapTimeLine {
-    width: 15%;
-    display: inline-block;
-    position: relative;
-}
 
 .uni{height:30px;top:0px;right:-10px;}
 .school{height:30px;top:15px;right:-10px;}
