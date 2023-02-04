@@ -228,17 +228,17 @@ aside{
     font-weight: 700;
     transform:  rotate(-15deg);
     transform-origin: top left;
-        /*-webkit-transform: rotate(-15deg) translate3d( 0, 0, 0);*/
-        /*-webkit-transform:  rotate(-15deg);*/
-        -webkit-transform-origin: top left;
-        -webkit-backface-visibility:hidden;
-        -webkit-font-smooothing:none;
-        -moz-transform:  rotate(-15deg);
-        -moz-transform-origin: top left;
-        -ms-transform:  rotate(-15deg);
-        -ms-transform-origin: top left;
-        -o-transform:  rotate(-15deg);
-        -o-transform-origin: top left;
+    /*-webkit-transform: rotate(-15deg) translate3d( 0, 0, 0);*/
+    /*-webkit-transform:  rotate(-15deg);*/
+    -webkit-transform-origin: top left;
+    -webkit-backface-visibility:hidden;
+    -webkit-font-smooothing:none;
+    -moz-transform:  rotate(-15deg);
+    -moz-transform-origin: top left;
+    -ms-transform:  rotate(-15deg);
+    -ms-transform-origin: top left;
+    -o-transform:  rotate(-15deg);
+    -o-transform-origin: top left;
     }
 
 h4 {color: #0ca3da;}
@@ -256,6 +256,7 @@ h5>a:hover, h5>a:active, h5>a:visited, h5>a:link{font-weight: bold;}
 .cayetano{height:30px;top: -40px;right:-10px;}
 .melontech{height:30px;top: -55px;right:-10px;}
 .astound{height:30px;top: -110px;right:-10px;}
+.tick42{display: none;}
 .wrapTLright{
     width: 80%;
     height: 100%;
