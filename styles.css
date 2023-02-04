@@ -20,7 +20,6 @@ main {
     margin: 0 auto;
     width: 100%;
     height: 100%;
-    /*border:  1px solid green;*/
 }
 header {
     width: 100%;
@@ -28,7 +27,6 @@ header {
 }
 main>div{
     display: inline-block;
-    /*border: 1px solid #0ca3da;*/
     position: absolute;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -38,10 +36,19 @@ main>div{
     left: auto;
     overflow: hidden;
     padding: 5px;
-    /*top:-200px;*/
 }
-.m-left{width: 63%;}
-.m-right{width:36%;}
+left-column, right-column {
+    display: inline-block;
+    position: relative;
+    margin-top: 10pt;
+    vertical-align: text-top;
+} 
+left-column>div, right-column>div {
+    display: inline-block;
+    margin-bottom: 10pt;
+} 
+left-column{width: 63%;}
+right-column{width:36%;}
 .b-goals {
     top: 0px;
     height: 220px;
@@ -55,37 +62,6 @@ main>div{
 .b-experience {
     /* bottom:  200px; */
     height: 700px;
-}
-.b-education {
-    top:  auto;
-    height: 190px;
-    bottom:0;
-}
-.b-skills {
-    right: 0;
-    top: 0;
-    height: 280px;
-}
-.b-projects {
-    right: 0;
-    top: 220px;
-    height:140px;
-}
-.b-interests {
-    top: 370px;
-    right: 0;
-    height:130px;
-}
-.b-languages {
-    bottom:  220px;
-    right: 0;
-    height:110px;
-}
-
-.b-info {
-    right:0px;
-    bottom:0px;
-    height: 190px;
 }
 ul {
     list-style:none;
@@ -123,7 +99,7 @@ h3 {
     padding-left: 42pt;
 }
 
-h3>img, p>img{margin-right: 15pt;}
+h3>img, p>img{margin-right: 5pt;}
 
 .m-normal {
     font-weight: 300;
@@ -145,19 +121,11 @@ img#myPhoto{
     padding-right: 15pt;
 } 
 /* images */
-.m-img-contacts{ width: 36px; height: 36px; } 
-.m-img-education{ width: 36px; height: 36px; } 
-.m-img-experience{ width: 36px; height: 36px; } 
-#myGoals{ width: 36px; height: 36px; } 
-#myInterests{ width: 36px; height: 36px; } 
-#myLanguages{ width: 36px; height: 36px; } 
-#myOwnProjects{ width: 36px; height: 36px; } 
-#mySkills{ width: 36px; height: 36px; }
+h3>img{ width: 30px; height: 30px; }
 
-#myEmail{ width: 24px; height: 24px; margin-left: 7px;margin-right: 15px; } 
-#myLocation{ width: 24px; height: 24px; margin-left: 7px;margin-right: 15px; } 
-#myMobile{ width: 24px; height: 24px; margin-left: 7px;margin-right: 15px; } 
-#myWeb{ width: 24px; height: 24px; margin-left: 7px;margin-right: 15px; }
+.b-info>p>img {width: 24px; height: 24px; margin-left: 7px;margin-right: 15px;}
+.b-interests ul li {display: inline-block;}
+.b-interests ul li:not(:last-child) a::after {content: ','; color: black;}
 
 /* animations */
 .barA {
@@ -179,7 +147,6 @@ img.bar {content: url(images/bar.gif) !important;}
 }
 .bar {
     height:10px;
-    /*top:-2px;*/
     background:#0ca3da;
     display:inline-block;
     position:relative;
