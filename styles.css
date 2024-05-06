@@ -218,7 +218,7 @@ h5>a:hover, h5>a:active, h5>a:visited, h5>a:link{font-weight: bold;}
 .cayetano{top: -10px;}
 .melontech{top: -25px;}
 .astound{top: -80px;}
-.tick42{display: none;}
+.tick42{top: -70px;}
 .wrapTLright{
     width: 75%;
     height: 100%;
@@ -239,11 +239,17 @@ h2 .account {
 section.timeline{
     position: relative;
 }
+.b-education {
+    margin-top: 40px;
+}
 
 @media print{
     .bar {
         height:10px;
         top:0;
         -webkit-print-color-adjust:exact;
+    }
+    .b-education {
+        display: none;
     }
 }
